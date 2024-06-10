@@ -1,0 +1,58 @@
+body{background-image: url(https://i.pinimg.com/564x/fb/55/b9/fb55b97a08551278e3a9996dd89b9a13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(2, 3, 80);
+    text-align: center;
+    display: flex;
+    flex-direction: column;  
+    align-items: center; 
+      
+  }
+  .volta{
+    color: rgb(235, 183, 13);
+  }
+  .title{
+    text-align: center;
+    font-size:45px ;
+    color:rgb(235, 183, 13);
+    
+    }
+    .LosParagrafos{
+      color:rgb(235, 183, 13);
+      font-size: 25px;
+    }
+    
+  
+    button{
+      background-color: rgb(235, 183, 13);
+      color: white;
+      font-weight: 800;
+      cursor: pointer;
+      margin: 1%;
+      flex-direction: column;
+      font-size: 25px;
+      width: 10%;
+      
+  
+      
+     
+   }
+   
+   @keyframes animationBarcelona{
+      0%{
+          transform: scale(1);
+      }
+      100%{
+          transform: scale(1.05);
+      }
+  
+   }
+  
+   button:hover{
+      animation-name: animationBarcelona ;
+      animation-duration: 0.5s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+   }
