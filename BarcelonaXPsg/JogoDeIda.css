@@ -23,6 +23,9 @@ body{background-image: url(https://i.pinimg.com/564x/fb/55/b9/fb55b97a08551278e3
       font-size: 25px;
     }
     
+    .ida{
+      color: rgb(235, 183, 13);
+    }
   
     button{
       background-color: rgb(235, 183, 13);

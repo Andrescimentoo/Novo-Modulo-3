@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
    background-size:48%;
    background-color: rgb(29, 29, 161);
+   background-attachment: fixed;  
   
    
 }

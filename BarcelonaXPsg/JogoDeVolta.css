@@ -23,6 +23,9 @@ body{background-image: url(https://i.pinimg.com/564x/fb/55/b9/fb55b97a08551278e3
       font-size: 25px;
     }
     
+    .volta{
+      color: rgb(235, 183, 13);
+    }
   
     button{
       background-color: rgb(235, 183, 13);
@@ -30,12 +33,10 @@ body{background-image: url(https://i.pinimg.com/564x/fb/55/b9/fb55b97a08551278e3
       font-weight: 800;
       cursor: pointer;
       margin: 1%;
-      flex-direction: column;
-      font-size: 25px;
-      width: 10%;
-      
-  
-      
+      font-size: 3px;
+      width: 5px;
+      height: 7px;
+     
      
    }
    

@@ -20,5 +20,5 @@ MessiNeymarSuarez.addEventListener("click",()=>{
 
 const BarcelonaXpsg = document.getElementById("6x1")
 BarcelonaXpsg.addEventListener("click",()=>{
-    alert("deu bom boaaaaa")
+    location.href = "../BarcelonaXPsg/JogoDeIda.html"
 })

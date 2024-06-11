@@ -1,5 +1,7 @@
 body{
+    background-attachment: fixed;   
     background-color: rgb(15, 15, 141);
+    background-origin: initial;
     text-align: center;
     font-size:25px ;
   }
@@ -29,8 +31,9 @@ body{
     flex-direction: column;
     align-items: center;
     border: none;
-    
-   
+    width: 4%;
+    height:4%;
+  
  }
  
  @keyframes animationBarcelona{
