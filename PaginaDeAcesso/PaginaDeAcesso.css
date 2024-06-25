@@ -4,6 +4,8 @@ body{
     background-origin: initial;
     text-align: center;
     font-size:25px ;
+    flex-direction: column;
+    align-items: center;
   }
 
   
@@ -23,13 +25,9 @@ body{
    
  }
  button{
-    background-color: rgb(235, 183, 13);
-    color: rgb(129, 10, 10);
-    font-weight: 800;
+   font-weight: 800;
     cursor: pointer;
     margin: 1%;
-    flex-direction: column;
-    align-items: center;
     border: none;
     width: 4%;
     height:4%;

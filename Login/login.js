@@ -34,7 +34,7 @@ clicar.addEventListener("click",()=>{
 
     for ( let i in users ){
     
-        if(login===users [i].log && password===users [i].pass){ //revisar o conceito do [i]
+        if(login===users [i].log && password===users [i].pass){ 
         validaLogin = true
         break
     } 

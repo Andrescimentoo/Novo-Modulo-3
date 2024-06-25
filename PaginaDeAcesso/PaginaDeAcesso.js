@@ -1,6 +1,6 @@
-const Barcelona = document.getElementById("barça")
+const Barcelona = document.getElementById("Msn")
 Barcelona.addEventListener("click",()=>{
-   
+   location.href = "../TrioMSN/MSN.html"
 })
 
 const irParaAnfield = document.getElementById("enfield")
@@ -8,12 +8,9 @@ irParaAnfield.addEventListener("click", ()=>{
     location.href = "../AcatastrofeDeAnfield/Anfield.html"
 })
 
-const LigaDosCampeoes = document.getElementById("champions2015")
-LigaDosCampeoes.addEventListener("click",()=>{
-    alert("deu bom tambem")
-})
 
-const MessiNeymarSuarez = document.getElementById("msn")
+
+const MessiNeymarSuarez = document.getElementById("Adios")
 MessiNeymarSuarez.addEventListener("click",()=>{
     location.href ="../AdespedidaDoEterno10/AdeusDEMessi.html"
 })
